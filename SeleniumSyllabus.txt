@@ -1,0 +1,83 @@
+Selenium Practical Inteview Questions
+*************************************
+Part 1:
+> What is selenium ?
+> What are the components available in Selenium ?
+> What is WebDriver ?
+> Advantages & Disadvantages
+
+Part 2:
+> Selenium Web Driver Architecture
+
+Part 3:
+> How to launch Browser in WebDriver ?
+> How to open URL ?
+> How to capture Title of the page ?
+> How to capture URL of the page ?
+> How to capture page source of the page ?
+
+Part 4:
+> How to check WebElement is Displayed, Enabled and Selected ?
+
+Part 5:
+> How to navigate Back & Forward ?
+> How to refresh Page ?
+> What is the difference between get() & navigate.to() ?
+
+Part 6:
+> What is the difference between findElement() and findElements() in Selenium WebDriver ?
+
+Part 7:
+> How to enter  & clear text from Input box ?
+> How to capture Text from Input box ?
+> What is the difference between getText() and getAttribute(‘value’) ?
+
+Part 8:
+> How to handle Dropdown in Selenium WebDriver ? 
+
+Part 9:
+> How to handle Bootstrap Dropdown in Selenium WebDriver ?
+
+Part 10:
+> How to handle Jquery Dropdown in Selenium WebDriver ?
+
+Part 11:
+> How to check drop down options are sorted in selenium WebDriver ? 
+
+Part 12:
+> How to handle Auto Suggest Drop Down in Selenium Web Driver ?
+
+Part 13:
+> How to handle Autocomplete Google Places drop down in selenium web driver ?
+
+Part 14:
+> How to select specific Check box ?
+> How to select all the check boxes ?
+> How to select multiple check boxes by choice ?
+> How to select last 2 check boxes ?
+> How to select first 2 check boxex ?
+
+Part 15:
+> How to handle browser windows in Selenium WebDriver ?
+> What is the difference between getWindowHandle() & getWindowhandles() methods ?
+> How to switch between Multiple Browser Windows ?
+> How to close all browser windows ?
+> How to close specific browser window by choice ?
+
+
+Part 16:
+> How to Locate links in Selenium WebDriver ?
+> What is the difference between linkText() and partialLinText() ?
+> How to capture all the links from Web Page ?
+> What is Broken Link ? How to check broken links ?
+
+Part 17:
+> How to handle Java Script Alerts ?
+> How to handle Authentication Popup ?
+> How to handle permission based Pop-ups ?
+
+Part 18:
+> What is the difference between frame and iframe ?
+> How to handle iframes in WebDriver ?
+> How to switch between multiple iFrames ?
+> How to work with Inner iFrames ?
