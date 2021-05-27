@@ -10,9 +10,12 @@ public class Wait {
 
 	static void waitFor(WebDriver driver, int time) {
 		try {
+			
+			System.out.println("Waiting for "+time+" seconds");
 			//ExplicitWait
 			WebDriverWait wait=new WebDriverWait(driver, time);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("nothing")));
+			
 		}catch(Exception e) {
 			System.out.println("Waited for "+time+" seconds");
 		}

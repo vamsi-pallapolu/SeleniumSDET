@@ -28,7 +28,7 @@ public class BrokenLinks {
 		
 		try {
 			for(WebElement link:links) {
-				//retrive href from each anchor element
+				//retrieve href from each anchor element
 				String href=link.getAttribute("href");
 				if(href == null || href.isEmpty())
 					continue;
@@ -45,7 +45,6 @@ public class BrokenLinks {
 		}catch(Exception e) {
 			System.out.println(e);
 		}
-		
 		
 		System.out.println("BrokenLinksCount:"+brokenLinksCount);
 		Thread.sleep(3_000);
