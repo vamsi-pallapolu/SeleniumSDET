@@ -19,7 +19,7 @@ public class Wait {
 		}catch(Exception e) {
 			System.out.println("Waited for "+time+" seconds");
 		}
-		
+	
 	}
 	
 }
