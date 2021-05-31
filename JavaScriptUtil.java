@@ -23,6 +23,12 @@ public class JavaScriptUtil {
 		js.executeScript("document.body.style.zoom='50%'");
 	}
 	
+	static void scrollToElement(WebDriver driver, WebElement element) {
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView()", element);
+		Wait.waitFor(driver, 1);
+	}
+	
 	static void scrollPageUp(WebDriver driver) {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0, -document.body.scrollHeight)");

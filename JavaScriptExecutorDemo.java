@@ -21,9 +21,15 @@ public class JavaScriptExecutorDemo {
 		driver.get("https://demo.nopcommerce.com/");
 		driver.manage().window().maximize();
 	
+		//Scroll to particular element
+		WebElement element=driver.findElement(By.xpath("//a[text()='nopCommerce new release!']"));
+		JavaScriptUtil.scrollToElement(driver, element);
+		element.click();
+		
+		
 		//flash
-		WebElement logo=driver.findElement(By.xpath("//img[@alt='nopCommerce demo store']"));
-		JavaScriptUtil.flash(driver, logo);
+		//WebElement logo=driver.findElement(By.xpath("//img[@alt='nopCommerce demo store']"));
+		//JavaScriptUtil.flash(driver, logo);
 		
 		/*
 		//Draw border and take screenshot
