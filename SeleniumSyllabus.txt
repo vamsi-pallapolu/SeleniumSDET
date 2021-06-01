@@ -1,63 +1,63 @@
 Selenium Practical Inteview Questions
 *************************************
-Part 1:
+Part 1
 > What is selenium ?
 > What are the components available in Selenium ?
 > What is WebDriver ?
 > Advantages & Disadvantages
 
-Part 2:
+Part 2
 > Selenium Web Driver Architecture
 
-Part 3:
+Part 3
 > How to launch Browser in WebDriver ?
 > How to open URL ?
 > How to capture Title of the page ?
 > How to capture URL of the page ?
 > How to capture page source of the page ?
 
-Part 4:
+Part 4
 > How to check WebElement is Displayed, Enabled and Selected ?
 
-Part 5:
+Part 5
 > How to navigate Back & Forward ?
 > How to refresh Page ?
 > What is the difference between get() & navigate.to() ?
 
-Part 6:
+Part 6
 > What is the difference between findElement() and findElements() in Selenium WebDriver ?
 
-Part 7:
+Part 7
 > How to enter  & clear text from Input box ?
 > How to capture Text from Input box ?
 > What is the difference between getText() and getAttribute(‘value’) ?
 
-Part 8:
+Part 8
 > How to handle Dropdown in Selenium WebDriver ? 
 
-Part 9:
+Part 9
 > How to handle Bootstrap Dropdown in Selenium WebDriver ?
 
-Part 10:
+Part 10
 > How to handle Jquery Dropdown in Selenium WebDriver ?
 
-Part 11:
+Part 11
 > How to check drop down options are sorted in selenium WebDriver ? 
 
-Part 12:
+Part 12
 > How to handle Auto Suggest Drop Down in Selenium Web Driver ?
 
-Part 13:
+Part 13
 > How to handle Autocomplete Google Places drop down in selenium web driver ?
 
-Part 14:
+Part 14
 > How to select specific Check box ?
 > How to select all the check boxes ?
 > How to select multiple check boxes by choice ?
 > How to select last 2 check boxes ?
 > How to select first 2 check boxex ?
 
-Part 15:
+Part 15
 > How to handle browser windows in Selenium WebDriver ?
 > What is the difference between getWindowHandle() & getWindowhandles() methods ?
 > How to switch between Multiple Browser Windows ?
@@ -65,19 +65,86 @@ Part 15:
 > How to close specific browser window by choice ?
 
 
-Part 16:
+Part 16
 > How to Locate links in Selenium WebDriver ?
 > What is the difference between linkText() and partialLinText() ?
 > How to capture all the links from Web Page ?
 > What is Broken Link ? How to check broken links ?
 
-Part 17:
+Part 17
 > How to handle Java Script Alerts ?
 > How to handle Authentication Popup ?
 > How to handle permission based Pop-ups ?
 
-Part 18:
+Part 18
 > What is the difference between frame and iframe ?
 > How to handle iframes in WebDriver ?
 > How to switch between multiple iFrames ?
 > How to work with Inner iFrames ?
+
+Part 19
+> What is Synchronization problem in Automation ?
+> What are the different types of waits available in Selenium WebDriver ?
+
+Part 20
+> How to handle Web Table in Selenium WebDriver ?
+  > How many rows in table ?
+  > How many columns in table ?
+  > Retrieve the specific row/column data
+  > Print release date, versionno of java language of selenium 
+
+Part 21
+> How to handle Dynamic Web Table with Pagination in Selenium ?  
+
+Part 22
+> How to handle DatePicker in Selenium ?
+
+Part 23
+> How to perform Mouse Operations in Selenium WebDriver ?
+> How to perform Right Click Action ?
+> How to perform Double click Action ?
+> How to perform Drag and Drop Action ?
+> How to perform Mouse Hover Action ?
+
+Part 24
+> How to handle Slider ?
+> How to find location and size of the web element ?
+> What is the difference between Actions & Action ?
+> What is the difference between build & perform ?
+
+Part 25
+> How to perform keyboard actions in selenium ?
+
+Part 26
+> How to capture ScreenShot of full page ?
+> How to capture ScreenShot of section of page ?
+> How to capture ScreenShot of Element on a page ?
+
+Part 27
+> How to capture tooltip of the Web Element ?
+> How to open a link in new tab ?
+> How to open URL’s in multiple tabs and windows ?
+> How to capture size and location of the WebElement ?
+
+Part 28
+> How to use JavaScriptExecutor in Selenium WebDriver ?
+
+Part 29
+> How to capture cookies from browser ?
+> How to print cookies from browser ?
+> How to add cookie to the browser ?
+> How to delete specific cookie from the browser ?
+> How to delete all cookies from the browser ?
+
+
+Part 30
+> How to download the files using Selenium WebDriver ?
+
+Part 31
+> How to upload the file in Selenium WebDriver ?
+
+Part 32
+> How to perform Database testing in Selenium Web Driver ?
+
+
+
